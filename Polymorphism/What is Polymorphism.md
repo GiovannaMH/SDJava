@@ -52,6 +52,11 @@ public class Main {
     }
 }
 ```
+#### Explanation:
+
+- The Calculator class has multiple add methods with different parameter lists.
+- The compiler determines which add method to invoke based on the arguments provided.
+- This allows the Calculator class to handle addition operations with varying numbers and types of operands.
 
 ### 2. Runtime Polymorphism (Method Overriding)
 Method overriding occurs when a subclass provides a specific implementation of a method already defined in its superclass. The method in the subclass must have the same name, return type, and parameters.
