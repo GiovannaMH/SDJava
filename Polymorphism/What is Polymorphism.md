@@ -11,6 +11,7 @@ Method overloading occurs when multiple methods in the same class have the same 
 Method overriding occurs when a subclass provides a specific implementation of a method already defined in its superclass. The method in the subclass must have the same name, return type, and parameters.
 The method to execute is determined at runtime based on the object's actual type.
 
+#### Method Overriding with Animal Classes
 ```
 // Superclass
 class Animal {
@@ -65,3 +66,10 @@ public class Main {
     }
 }
 ```
+
+#### Explanation:
+
+- The Animal class defines a method makeSound().
+- Subclasses Dog, Cat, and Cow override makeSound() with specific implementations.
+- Even though the reference type is Animal, the overridden methods in the subclasses are called at runtime.
+- This demonstrates runtime polymorphism, where the method to be invoked is determined at runtime based on the object's actual type.
