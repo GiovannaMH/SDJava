@@ -43,3 +43,11 @@ public class Main {
         myCow.makeSound();    // Output: Moo!
     }
 }
+/*
+Explanation:
+
+The Animal class defines a method makeSound().
+Subclasses Dog, Cat, and Cow override makeSound() with specific implementations.
+Even though the reference type is Animal, the overridden methods in the subclasses are called at runtime.
+This demonstrates runtime polymorphism, where the method to be invoked is determined at runtime based on the object's actual type.
+*/
