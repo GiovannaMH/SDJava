@@ -319,7 +319,7 @@ public class GUIExample {
 
 - **Code Reusability**: Write code that works with superclass types and can handle any subclass.
 - **Extensibility**: Easily introduce new subclasses without changing existing code.
-- **Maintainability**: Centralize common behaviors in superclasses or interfaces.
+- **Maintainability**: Centralise common behaviours in superclasses or interfaces.
 
 ---
 
