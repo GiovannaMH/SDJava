@@ -11,7 +11,7 @@ class Animal {
 class Dog extends Animal {
     @Override
     public void makeSound() {
-        System.out.println("Woof!");
+        System.out.println("Dog barks. Woof!");
     }
 }
 
@@ -19,7 +19,7 @@ class Dog extends Animal {
 class Cat extends Animal {
     @Override
     public void makeSound() {
-        System.out.println("Meow!");
+        System.out.println("Cat meows. Meow!");
     }
 }
 
@@ -34,6 +34,15 @@ class Cow extends Animal {
 public class Main {
     public static void main(String[] args) {
         // Superclass reference but subclass objects
+
+        Animal myAnimal; // Reference of type Animal
+        myAnimal = new Dog();
+        myAnimal.makeSound(); // Outputs: Dog barks
+
+        myAnimal = new Cat();
+        myAnimal.makeSound(); // Outputs: Cat meows
+
+        //------------
         Animal myDog = new Dog();
         Animal myCat = new Cat();
         Animal myCow = new Cow();
