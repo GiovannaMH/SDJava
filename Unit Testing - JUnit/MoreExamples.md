@@ -156,4 +156,4 @@ These examples cover various domains:
 3. **Text processing** (Word counter).
 4. **Simulation** (Traffic light system).
 
-Each example can be tested using JUnit to validate expected behavior. Let me know if you'd like further explanations or more examples!
+Each example can be tested using JUnit to validate the expected behaviour. 
