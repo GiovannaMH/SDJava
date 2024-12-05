@@ -9,7 +9,7 @@ It enables a single interface to represent different underlying forms (data type
 Method overloading occurs when multiple methods in the same class have the same name but different parameter lists (different type, number, or both). The compiler determines which method to call based on the method signature.
 
 #### Method Overloading in a Calculator Class
-```
+```java
 public class Calculator {
 
     // Method to add two integers
@@ -65,7 +65,7 @@ Method overriding occurs when a subclass provides a specific implementation of a
 The method to execute is determined at runtime based on the object's actual type.
 
 #### Method Overriding with Animal Classes
-```
+```java
 // Superclass
 class Animal {
     public void makeSound() {
@@ -328,5 +328,3 @@ public class GUIExample {
 Polymorphism allows Java programs to process objects that share the same superclass or interface as if they are instances of the superclass, while at the same time preserving their specific behaviors. This leads to flexible and scalable code that is easier to maintain and extend.
 
 ---
-
-**Feel free to ask if you need more examples or further clarification on any of these concepts!**
